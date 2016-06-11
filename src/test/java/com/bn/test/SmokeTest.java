@@ -11,5 +11,11 @@ public class SmokeTest extends BaseTest
 		driver.findElement(By.id("signInLink")).click();
 		Thread.sleep(6000);
 	}
+	
+	@Test
+	public void signUpTest() throws InterruptedException
+	{
+		
+	}
 
 }
