@@ -12,9 +12,11 @@ public class SmokeTest extends BaseTest
 		Thread.sleep(6000);
 	}
 	
+
 	@Test
-	public void signUpTest() throws InterruptedException
+	public void searchBox()
 	{
+		driver.findElement(By.id("searchBarBN")).sendKeys("javaScript");
 		
 	}
 
