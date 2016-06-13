@@ -14,9 +14,9 @@ public class SmokeTest extends BaseTest
 	
 
 	@Test
-	public void searchBox()
+	public void shopAllCat()
 	{
-		driver.findElement(By.id("searchBarBN")).sendKeys("javaScript");
+		driver.findElement(By.id("bbiShopAllButton")).click();
 		
 	}
 
