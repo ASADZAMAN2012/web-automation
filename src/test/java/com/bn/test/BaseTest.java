@@ -12,9 +12,9 @@ public class BaseTest
 	@Before
 	public void startBrowser()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:/Users/Administrator/Downloads/chromedriver_win32/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/Users/isratkhan/Downloads/chromedriver");
 		driver = new ChromeDriver();
-		driver.get("http://www.barnesandnoble.com/");
+		driver.get("http://52.35.94.10/register/");
 		driver.manage().window().maximize();
 	}
 	

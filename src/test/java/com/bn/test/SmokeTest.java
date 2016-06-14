@@ -13,7 +13,7 @@ public class SmokeTest extends BaseTest
 	}
 	
    @Test
-	public void myAccount(){
+	public void myAccount1(){
 		driver.findElement(By.id("myAccountLink")).click();
 	}
 	
